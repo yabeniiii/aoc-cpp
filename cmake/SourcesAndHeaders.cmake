@@ -8,7 +8,7 @@ set(exe_sources
 )
 
 set(headers
-  include/template/main.hpp
+  include/aoc/main.hpp
 )
 
 set(test_sources
