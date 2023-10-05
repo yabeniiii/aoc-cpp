@@ -35,5 +35,7 @@ int main(int argc, char **argv) {
 
   std::sort(totals.begin(), totals.end());
 
-  std::cout << (totals.at(totals.size() - 1) + totals.at(totals.size() - 2) + totals.at(totals.size() - 3)) << std::endl;
+  std::cout << (totals.at(totals.size() - 1) + totals.at(totals.size() - 2) +
+                totals.at(totals.size() - 3))
+            << std::endl;
 }
